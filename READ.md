@@ -32,6 +32,8 @@ The current test only run through the Chrome browser
 The test can be run in the local environment. Each environment is linked to maven profiles and has its own configuration file. Properties can be configured in:
 'src/main/resources/resources.properties'
 
+* mvn test -Dtest=HotelReservationTest
+
 # 3. Framework Overviews
 
 The Framework has been designed with clear levels of abstraction in mind. pages, context. For page object inialization, use Static Factory methods.
